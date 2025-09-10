@@ -60,14 +60,14 @@ p {
 }
 
 .btn-primary {
-    background-color: #FF6B35;
+    background-color: #E53935; /* More pizza-like red */
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #E55A2B;
+    background-color: #C62828;
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 10px 20px rgba(229, 57, 53, 0.3);
 }
 
 /* Header */
@@ -96,7 +96,7 @@ p {
 
 .logo i {
     font-size: 2rem;
-    color: #FF6B35;
+    color: #E53935;
 }
 
 .logo h1 {
@@ -120,12 +120,12 @@ p {
 }
 
 .nav a:hover {
-    color: #FF6B35;
+    color: #E53935;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/FF6B35/FFFFFF?text=Delicious+Pizza') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x1080/E53935/FFFFFF?text=Delicious+Homemade+Pizza') center/cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -182,7 +182,7 @@ p {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #FF6B35;
+    background-color: #E53935;
 }
 
 .section-header p {
@@ -262,7 +262,7 @@ p {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #FF6B35;
+    background-color: #E53935;
     color: white;
     text-align: center;
     border: none;
@@ -273,7 +273,7 @@ p {
 }
 
 .view-btn:hover {
-    background-color: #E55A2B;
+    background-color: #C62828;
 }
 
 /* Modal */
@@ -398,7 +398,7 @@ p {
     left: 0;
     width: 100px;
     height: 3px;
-    background-color: #FF6B35;
+    background-color: #E53935;
 }
 
 .about-text p {
@@ -419,7 +419,7 @@ p {
 
 .stat h3 {
     font-size: 2.5rem;
-    color: #FF6B35;
+    color: #E53935;
     margin-bottom: 5px;
 }
 
@@ -466,7 +466,7 @@ p {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #FF6B35;
+    border-color: #E53935;
 }
 
 .contact-info {
@@ -490,7 +490,7 @@ p {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #FF6B35;
+    color: #E53935;
     min-width: 25px;
     padding-top: 3px;
 }
@@ -513,7 +513,7 @@ p {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #FF6B35;
+    background-color: #E53935;
     color: white;
     border-radius: 50%;
     font-size: 1.2rem;
@@ -521,7 +521,7 @@ p {
 }
 
 .social-links a:hover {
-    background-color: #E55A2B;
+    background-color: #C62828;
     transform: translateY(-5px);
 }
 
@@ -546,7 +546,7 @@ p {
 
 .footer-logo i {
     font-size: 2rem;
-    color: #FF6B35;
+    color: #E53935;
 }
 
 .footer-logo h3 {
@@ -561,7 +561,7 @@ p {
 }
 
 .footer i {
-    color: #FF6B35;
+    color: #E53935;
 }
 
 /* Responsive Design */
