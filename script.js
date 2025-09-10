@@ -1,174 +1,201 @@
 // script.js
 
-// Sample pizza recipes data
+// Sample pizza recipes data with improved placeholder images
 const pizzaRecipes = [
     {
         id: 1,
         title: "Classic Margherita",
-        image: "https://placehold.co/600x400/FF6B35/FFFFFF?text=Margherita+Pizza",
+        image: "https://placehold.co/600x400/4CAF50/FFFFFF?text=Classic+Margherita+Pizza",
         description: "The iconic Italian pizza with fresh tomatoes, mozzarella, and basil.",
         prepTime: "20 mins",
         cookTime: "15 mins",
         servings: "4 people",
         ingredients: [
-            "Pizza dough",
-            "3 ripe tomatoes, sliced",
-            "8 oz fresh mozzarella",
-            "Fresh basil leaves",
-            "2 tbsp olive oil",
-            "Salt and pepper to taste"
+            "Pizza dough (homemade or store-bought)",
+            "3 ripe tomatoes, thinly sliced",
+            "8 oz fresh mozzarella cheese, sliced",
+            "Fresh basil leaves (about 10-12 leaves)",
+            "2 tbsp extra virgin olive oil",
+            "Salt and freshly ground black pepper to taste",
+            "1 garlic clove, minced (optional)"
         ],
         instructions: [
-            "Preheat oven to 475°F (245°C).",
-            "Roll out pizza dough on a floured surface.",
-            "Spread tomato slices evenly over the dough.",
-            "Tear mozzarella into pieces and distribute over tomatoes.",
-            "Drizzle with olive oil and season with salt and pepper.",
-            "Bake for 12-15 minutes until crust is golden.",
-            "Top with fresh basil leaves before serving."
+            "Preheat your oven to 475°F (245°C) with a pizza stone or baking sheet inside if available.",
+            "Roll out your pizza dough on a lightly floured surface to your desired thickness (about 12 inches in diameter).",
+            "Carefully transfer the dough to a piece of parchment paper or a lightly floured pizza peel.",
+            "Arrange the tomato slices evenly over the dough, leaving a 1-inch border around the edges.",
+            "Place the mozzarella slices on top of the tomatoes, distributing them evenly.",
+            "Drizzle the olive oil over the entire pizza, and sprinkle with salt, pepper, and minced garlic if using.",
+            "Carefully transfer the pizza (with the parchment paper if using) to the preheated oven.",
+            "Bake for 12-15 minutes, or until the crust is golden brown and the cheese is melted and bubbly.",
+            "Remove from oven and immediately top with fresh basil leaves.",
+            "Let cool for 2-3 minutes before slicing and serving."
         ]
     },
     {
         id: 2,
         title: "Pepperoni Delight",
-        image: "https://placehold.co/600x400/D32F2F/FFFFFF?text=Pepperoni+Pizza",
-        description: "Loaded with spicy pepperoni slices and melted cheese.",
+        image: "https://placehold.co/600x400/D32F2F/FFFFFF?text=Pepperoni+Delight+Pizza",
+        description: "Loaded with spicy pepperoni slices and melted cheese - a crowd favorite!",
         prepTime: "15 mins",
         cookTime: "12 mins",
         servings: "4 people",
         ingredients: [
-            "Pizza dough",
-            "1 cup tomato sauce",
-            "2 cups shredded mozzarella",
-            "50 slices pepperoni",
+            "Pizza dough (homemade or store-bought)",
+            "1 cup pizza sauce (homemade or store-bought)",
+            "2 cups shredded mozzarella cheese",
+            "50-60 slices pepperoni (about 4 oz)",
             "1 tsp dried oregano",
-            "1/2 tsp red pepper flakes (optional)"
+            "1/2 tsp red pepper flakes (optional for heat)",
+            "1 tbsp olive oil",
+            "1/4 cup grated Parmesan cheese (optional)"
         ],
         instructions: [
-            "Preheat oven to 475°F (245°C).",
-            "Roll out pizza dough and place on baking sheet.",
-            "Spread tomato sauce evenly over the dough.",
-            "Sprinkle mozzarella cheese over the sauce.",
-            "Arrange pepperoni slices in overlapping circles.",
-            "Sprinkle with oregano and red pepper flakes.",
-            "Bake for 10-12 minutes until cheese is bubbly.",
-            "Let cool for 2 minutes before slicing."
+            "Preheat your oven to 475°F (245°C) with a pizza stone or baking sheet inside.",
+            "Roll out the pizza dough on a lightly floured surface to about 12-14 inches in diameter.",
+            "Transfer the dough to a piece of parchment paper or lightly floured pizza peel.",
+            "Spread the pizza sauce evenly over the dough, leaving a 1-inch border around the edges.",
+            "Sprinkle about 1/3 of the mozzarella cheese over the sauce.",
+            "Arrange the pepperoni slices in overlapping circles, covering the entire pizza.",
+            "Sprinkle the remaining mozzarella cheese over the pepperoni.",
+            "Add dried oregano and red pepper flakes (if using) evenly over the top.",
+            "Drizzle with olive oil and sprinkle with Parmesan cheese if desired.",
+            "Transfer the pizza to the preheated oven and bake for 10-12 minutes until the crust is golden and cheese is bubbly.",
+            "Remove from oven and let cool for 2 minutes before slicing."
         ]
     },
     {
         id: 3,
         title: "Vegetarian Supreme",
-        image: "https://placehold.co/600x400/4CAF50/FFFFFF?text=Vegetarian+Pizza",
-        description: "Packed with colorful vegetables and three types of cheese.",
+        image: "https://placehold.co/600x400/64DD17/FFFFFF?text=Vegetarian+Supreme+Pizza",
+        description: "Packed with colorful vegetables and three types of cheese for the ultimate veggie experience.",
         prepTime: "25 mins",
         cookTime: "18 mins",
         servings: "4 people",
         ingredients: [
-            "Pizza dough",
-            "3/4 cup tomato sauce",
-            "1 cup shredded mozzarella",
+            "Pizza dough (homemade or store-bought)",
+            "3/4 cup pizza sauce",
+            "1 cup shredded mozzarella cheese",
             "1/2 cup crumbled feta cheese",
-            "1/4 cup grated parmesan",
-            "1 bell pepper, sliced",
-            "1 small red onion, sliced",
+            "1/4 cup grated Parmesan cheese",
+            "1 bell pepper (any color), thinly sliced",
+            "1 small red onion, thinly sliced",
             "1 cup mushrooms, sliced",
-            "1/2 cup black olives",
-            "2 tbsp olive oil"
+            "1/2 cup black olives, sliced",
+            "1/2 cup cherry tomatoes, halved",
+            "2 tbsp olive oil",
+            "1 tsp dried Italian herbs"
         ],
         instructions: [
-            "Preheat oven to 450°F (230°C).",
-            "Roll out pizza dough and brush edge with olive oil.",
-            "Spread tomato sauce evenly over the dough.",
-            "Sprinkle mozzarella cheese over the sauce.",
-            "Arrange vegetables in an attractive pattern.",
-            "Sprinkle feta and parmesan over the top.",
-            "Bake for 15-18 minutes until crust is golden.",
-            "Let rest for 5 minutes before serving."
+            "Preheat your oven to 450°F (230°C) with a pizza stone or baking sheet inside.",
+            "Roll out the pizza dough on a lightly floured surface to your desired thickness.",
+            "Brush the outer edge of the dough with 1 tbsp of olive oil for a golden crust.",
+            "Spread the pizza sauce evenly over the dough, leaving a 1-inch border.",
+            "Sprinkle the mozzarella cheese evenly over the sauce.",
+            "Arrange the sliced bell peppers, red onions, mushrooms, black olives, and cherry tomatoes in an attractive pattern over the cheese.",
+            "Sprinkle the crumbled feta and grated Parmesan over the vegetables.",
+            "Drizzle the remaining olive oil over the top and sprinkle with dried Italian herbs.",
+            "Carefully transfer the pizza to the preheated oven and bake for 15-18 minutes until the crust is golden brown and vegetables are tender.",
+            "Remove from oven and let rest for 5 minutes before slicing and serving."
         ]
     },
     {
         id: 4,
         title: "BBQ Chicken",
-        image: "https://placehold.co/600x400/F57C00/FFFFFF?text=BBQ+Chicken+Pizza",
-        description: "Sweet and smoky BBQ sauce with tender chicken and red onions.",
+        image: "https://placehold.co/600x400/EF6C00/FFFFFF?text=BBQ+Chicken+Pizza",
+        description: "Sweet and smoky BBQ sauce with tender chicken and red onions - a perfect fusion pizza.",
         prepTime: "20 mins",
         cookTime: "15 mins",
         servings: "4 people",
         ingredients: [
-            "Pizza dough",
-            "3/4 cup BBQ sauce",
-            "2 cups cooked chicken, shredded",
+            "Pizza dough (homemade or store-bought)",
+            "3/4 cup BBQ sauce (plus extra for drizzling)",
+            "2 cups cooked chicken breast, shredded or diced",
             "1 cup red onion, thinly sliced",
-            "1 1/2 cups mozzarella cheese",
-            "1/4 cup fresh cilantro",
-            "1 tbsp olive oil"
+            "1 1/2 cups shredded mozzarella cheese",
+            "1/4 cup fresh cilantro, chopped",
+            "1 tbsp olive oil",
+            "1/2 cup corn kernels (optional)",
+            "1/4 cup crumbled bacon (optional)"
         ],
         instructions: [
-            "Preheat oven to 450°F (230°C).",
-            "Roll out pizza dough and brush with olive oil.",
-            "Spread BBQ sauce evenly over the dough.",
-            "Sprinkle half the mozzarella over the sauce.",
-            "Distribute chicken and red onions evenly.",
-            "Top with remaining mozzarella.",
-            "Bake for 12-15 minutes until crust is golden.",
-            "Garnish with fresh cilantro before serving."
+            "Preheat your oven to 450°F (230°C) with a pizza stone or baking sheet inside.",
+            "Roll out the pizza dough on a lightly floured surface to about 12 inches in diameter.",
+            "Brush the outer edge of the dough with olive oil for a golden, crispy crust.",
+            "Spread BBQ sauce evenly over the dough, leaving a 1-inch border around the edges.",
+            "Sprinkle about half of the mozzarella cheese over the BBQ sauce.",
+            "Evenly distribute the cooked chicken and red onion slices over the cheese.",
+            "Sprinkle the remaining mozzarella cheese over the top.",
+            "If using, add corn kernels and crumbled bacon.",
+            "Carefully transfer the pizza to the preheated oven and bake for 12-15 minutes until the crust is golden and cheese is melted and bubbly.",
+            "Remove from oven and sprinkle with fresh cilantro.",
+            "Drizzle with additional BBQ sauce if desired, and let cool for 2 minutes before slicing."
         ]
     },
     {
         id: 5,
         title: "Hawaiian",
         image: "https://placehold.co/600x400/FF9800/FFFFFF?text=Hawaiian+Pizza",
-        description: "Sweet pineapple and savory ham create the perfect balance.",
+        description: "Sweet pineapple and savory ham create the perfect balance of flavors.",
         prepTime: "15 mins",
         cookTime: "12 mins",
         servings: "4 people",
         ingredients: [
-            "Pizza dough",
-            "1/2 cup tomato sauce",
-            "1 1/2 cups mozzarella cheese",
+            "Pizza dough (homemade or store-bought)",
+            "1/2 cup pizza sauce",
+            "1 1/2 cups shredded mozzarella cheese",
             "1 cup cooked ham, diced",
-            "1 cup pineapple chunks",
-            "1/4 cup bacon bits (optional)",
-            "1 tbsp olive oil"
+            "1 cup pineapple chunks (fresh or canned, drained)",
+            "1/4 cup cooked bacon bits (optional)",
+            "1 tbsp olive oil",
+            "1/4 cup chopped green onions (for garnish)",
+            "1 tsp dried oregano"
         ],
         instructions: [
-            "Preheat oven to 475°F (245°C).",
-            "Roll out pizza dough and brush edge with olive oil.",
-            "Spread tomato sauce evenly over the dough.",
-            "Sprinkle cheese over the sauce.",
-            "Distribute ham and pineapple evenly.",
-            "Sprinkle bacon bits if using.",
-            "Bake for 10-12 minutes until cheese is bubbly.",
-            "Let cool for 2 minutes before slicing."
+            "Preheat your oven to 475°F (245°C) with a pizza stone or baking sheet inside.",
+            "Roll out the pizza dough on a lightly floured surface to your desired thickness.",
+            "Brush the outer edge of the dough with olive oil for a golden crust.",
+            "Spread pizza sauce evenly over the dough, leaving a 1-inch border.",
+            "Sprinkle about half of the mozzarella cheese over the sauce.",
+            "Evenly distribute the diced ham and pineapple chunks over the cheese.",
+            "Sprinkle the remaining mozzarella cheese over the top.",
+            "If using, sprinkle bacon bits and dried oregano over the pizza.",
+            "Carefully transfer the pizza to the preheated oven and bake for 10-12 minutes until the crust is golden and cheese is bubbly.",
+            "Remove from oven and sprinkle with chopped green onions.",
+            "Let cool for 2 minutes before slicing and serving."
         ]
     },
     {
         id: 6,
         title: "Four Cheese",
-        image: "https://placehold.co/600x400/795548/FFFFFF?text=Four+Cheese+Pizza",
-        description: "A cheese lover's dream with four different Italian cheeses.",
+        image: "https://placehold.co/600x400/673AB7/FFFFFF?text=Four+Cheese+Pizza",
+        description: "A cheese lover's dream with four different Italian cheeses and fresh rosemary.",
         prepTime: "15 mins",
         cookTime: "15 mins",
         servings: "4 people",
         ingredients: [
-            "Pizza dough",
-            "1/2 cup tomato sauce (optional)",
-            "1 cup mozzarella cheese",
-            "1/2 cup gorgonzola cheese",
-            "1/2 cup fontina cheese",
-            "1/4 cup parmesan cheese",
-            "Fresh rosemary (optional)",
-            "1 tbsp olive oil"
+            "Pizza dough (homemade or store-bought)",
+            "1/2 cup pizza sauce (optional, for a white pizza omit this)",
+            "1 cup shredded mozzarella cheese",
+            "1/2 cup crumbled gorgonzola cheese",
+            "1/2 cup shredded fontina cheese",
+            "1/4 cup grated Parmesan cheese",
+            "2-3 fresh rosemary sprigs",
+            "2 tbsp olive oil",
+            "1 garlic clove, minced (optional)",
+            "Freshly ground black pepper to taste"
         ],
         instructions: [
-            "Preheat oven to 475°F (245°C).",
-            "Roll out pizza dough and brush with olive oil.",
-            "If using, spread a thin layer of tomato sauce.",
-            "Combine all cheeses in a bowl.",
-            "Sprinkle cheese mixture evenly over the dough.",
-            "Add rosemary sprigs if desired.",
-            "Bake for 12-15 minutes until crust is golden.",
-            "Let rest for 5 minutes before serving."
+            "Preheat your oven to 475°F (245°C) with a pizza stone or baking sheet inside.",
+            "Roll out the pizza dough on a lightly floured surface to your desired thickness.",
+            "If making a traditional four cheese pizza, brush the entire surface with olive oil and sprinkle with minced garlic (if using). If making a red sauce version, spread pizza sauce evenly over the dough, leaving a 1-inch border.",
+            "In a bowl, combine the mozzarella, gorgonzola, fontina, and Parmesan cheeses.",
+            "Sprinkle the cheese mixture evenly over the dough (or sauce).",
+            "Grind black pepper over the top to taste.",
+            "Place rosemary sprigs on top of the cheese (they will infuse flavor as the pizza bakes).",
+            "Carefully transfer the pizza to the preheated oven and bake for 12-15 minutes until the crust is golden and cheese is melted and bubbly.",
+            "Remove from oven and let rest for 5 minutes before slicing (this allows the cheese to set slightly).",
+            "Remove rosemary sprigs before serving, or leave them as a decorative element."
         ]
     }
 ];
@@ -238,7 +265,7 @@ function showRecipeModal(recipeId) {
 
     // Clear previous instructions
     modalInstructions.innerHTML = '';
-    recipe.instructions.forEach(instruction => {
+    recipe.instructions.forEach((instruction, index) => {
         const li = document.createElement('li');
         li.textContent = instruction;
         modalInstructions.appendChild(li);
